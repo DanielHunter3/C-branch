@@ -6,8 +6,8 @@
 @property double x;
 @property double y;
 
-(instancetype)initWithX:(double)x andY:(double)y;
-(double)mathOperationsWithSymbol:(NSString *)symbol;
+-(instancetype)initWithX:(double)x andY:(double)y;
+-(double)mathOperationsWithSymbol:(NSString *)symbol;
 @end
 
 @implementation Math
