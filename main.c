@@ -5,7 +5,7 @@
 #include <math.h>
 
 struct Math {
-    double x, y
+    double x, y;
 };
 
 double math_operations(struct Math object, char* string)
